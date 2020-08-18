@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Engage Bakery</title>
+        <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="style/style.css"/>
+        <script>
+            <!--Navbar section-->
+            $(function(){
+                $(document).scroll(function(){
+                    var $nav = $(".navbar-fixed-top");
+                    $nav,toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+                });
+            });
+        </script>
+    </head>
+    <body>
+
+        <!--Header secion-->
+        <header style="position: relative">
+            <!--Navbar Section-->
+            <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top position-fixed " style="color: #ffffff;">
+
+                <div class="container" style="position: relative;">
+                    <a href="#" class="navbar-brand">
+                        <img src="imgs/bakery-light-1.png" style="height:48px; margin-left: 30px;"/>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav nav-right">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#" style="color: #ffffff">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: #ffffff">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" style="color: #ffffff">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" style="color: #ffffff" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" style="color: #ffffff" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </nav>
+
+            <!--Header Image -->
+            <div class="slider">
+                <img  src="imgs/drew-coffman-1872.jpg" width="100%" height="670px"/>
+            </div>
+            <div class="slider2">
+            </div>
+
+            <!--header Content-->
+            <div class="container">
+                <div class="content">
+                    <h5>Welcome To</h5>
+                    <h1>Family Bakery</h1>
+                    <p >We're the biggest, best equipped and most advanced Bakery in the greater Los Angeles area.</p>
+                    <a class="btn btn-lg btn-design" href="#" role="button">Learn more</a>
+                    <a class="btn btn-lg btn-design btn-contact" href="#" role="button">Contact us</a>
+                </div>
+            </div>
+        </header>
+
+
+        <!--WHO Section-->
+        <section class="who-sec container">
+            <div class="row ">
+                <div class="col-md-6">
+                    <img src="imgs/alexandru-stavrica-170390-800x760.jpg"  width="100%" />
+                </div>
+                <div class="col-md-6">
+                    <div class="who-content">
+
+                        <h1>Who we are?</h1>
+                        <p>
+                            We have been operating for over 30 years and are
+                            Members of The Federation of Master Builders.
+                            We work on projects big and small from small residential
+                            extensions to full house.
+                            We are so happy with this theme.
+                            Everyday it make our lives better.
+                        </p>
+                        <ul class="icon-list">
+                            <li>
+                                <i class="fa fa fa-envira color-accent"></i>
+                                    <span class="icon-list-text">
+                                        We care about environment.
+                                    </span>
+                            </li>
+                            <li>
+                                <i class="fa fa fa-users color-accent"></i>
+                                    <span class="icon-list-text">
+                                        We are trusted by hundreds of clients.
+                                    </span>
+                            </li>
+                            <li>
+                                <i class="fa fa fa-heart color-accent"></i>
+                                    <span class="icon-list-text">
+                                        Social media loves us!
+                                    </span>
+                            </li>
+                            <li>
+                                <i class="fa fa fa-check color-accent"></i>
+                                    <span class="icon-list-text">
+                                        This list is super easy to create.
+                                    </span>
+                            </li>
+                        </ul>
+                    </div>
+
+            </div>
+        </section>
+
+        <!--Location Section-->
+        <section class="location-sec ">
+            <div class="container">
+                <div class="row ">
+
+                    <div class="col-md-6 loc-content">
+                        <h1>Our Location</h1>
+                        <p>
+                            We have been operating for over 30 years and are Members of The
+                            Federation of Master Builders. We work on projects big and small
+                            from small residential extensions to full house.We are so happy
+                            with this theme. Everyday it make our lives better.
+                        </p>
+                        <p>
+                            Story on projects big and small from small residential extensions
+                            to full house.We are so happy with this theme. Everyday it make
+                            our lives better.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="imgs/full-2-800x640.jpg"  width="100%" />
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--our-Bakery Section-->
+        <section class="bake-sec">
+            <div class="container">
+                <div class="bake-content">
+                    <h1>Our Baking</h1>
+                    <p>
+                        Learn more about them.
+                        We have worked truly hard to make them perfect for every use.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="imgs/card1.jpg" class="card-img-top" >
+                            <div class="card-body">
+                                <h5 class="card-title">Superior Breads</h5>
+                                <p class="card-text">
+                                    Proin interdum, ante ut sollicitudin commodo,
+                                    tellus quam sagittis libero,at semper mauris velit a velit.
+                                    Phasellus commodo turpis et lacinia posuere.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width:100%;">
+                            <img src="imgs/card2.jpg" class="card-img-top" >
+                            <div class="card-body">
+                                <h5 class="card-title">Bagels</h5>
+                                <p class="card-text">
+                                    Proin interdum, ante ut sollicitudin commodo,
+                                    tellus quam sagittis libero,at semper mauris velit a velit.
+                                    Phasellus commodo turpis et lacinia posuere.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card" style="width: 100%;">
+                            <img src="imgs/card3.jpg" class="card-img-top" >
+                            <div class="card-body">
+                                <h5 class="card-title">Cookies</h5>
+                                <p class="card-text">
+                                    Proin interdum, ante ut sollicitudin commodo,
+                                    tellus quam sagittis libero,at semper mauris velit a velit.
+                                    Phasellus commodo turpis et lacinia posuere.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          
+            </div>
+        </section>
+
+        <!--Map Section-->
+        <section class="map-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="map-content">
+                            <h1>Contact Information</h1>
+                            <p>I am text block. Click edit button to change this text.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                            </p>
+                            <h5>Our contact details:</h5>
+                            <ul class="icon-list">
+                                <li>
+                                    <i class="fa fa fa-envira color-accent"></i>
+                                    <span class="icon-list-text">
+                                        Manchester St 123-78B, Random 713, UK
+                                    </span>
+                                </li>
+                                <li>
+                                    <i class="fa fa fa-users color-accent"></i>
+                                    <span class="icon-list-text">
+                                        +46 123 456 789
+                                    </span>
+                                </li>
+                                <li>
+                                    <i class="fa fa fa-heart color-accent"></i>
+                                    <span class="icon-list-text">
+                                        +37 431 456 789
+                                    </span>
+                                </li>
+                                <li>
+                                    <i class="fa fa fa-check color-accent"></i>
+                                    <span class="icon-list-text">
+                                        hello@sitename.com
+                                    </span>
+                                </li>
+                            </ul>
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d422993.8259714365!2d-118.13437513647915!3d34.07876046625357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2seg!4v1581018483648!5m2!1sen!2seg"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Information Section-->
+        <section class="info-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>About us</h5>
+                        <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet,
+                            consectetur. I am text block.Click edit button to change this text.
+                            Lorem ipsum dolor sit amet, consectetur.
+                        </p>
+                        <p>
+                            We are the champions! We are the most amazing theme of all time, yeah.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Why we are special?</h5>
+                        <div class="textwidget"><ul>
+                            <li>Our magical recipe.</li>
+                            <li>We care about environment.</li>
+                            <li>We are trusted by hundreds of clients.</li>
+                            <li>Social media loves us!</li>
+                            <li>This list is super easy to create.</li>
+                        </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3 textwidget ">
+                        <h5>Opening Hours</h5>
+                        <ul>
+                            <li>Monday 10AM - 9PM</li>
+                            <li>Tuesday 10AM - 9PM</li>
+                            <li>Wednesday 10AM - 9PM</li>
+                            <li>Thursday 10AM - 10PM</li>
+                            <li>Friday 10AM - 10PM</li>
+                            <li>Weekends 10AM - 11PM</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Contact Details</h5>
+                        <div class="textwidget">
+                            <ul>
+                                <li>Manchester Road 123-78B, Silictown 7854MD, Great Country</li>
+                                <li>+46 123 456 789</li>
+                                <li>hello@sitename.com</li>
+                                <li>Thursday 10AM - 10PM</li>
+                                <li>http://www.sitename.com</li>
+                            </ul>
+                        </div>
+
+                    </div>
+            </div>
+            </div>
+
+        </section>
+
+        <!--Footer Section-->
+        <footer>
+            <div class="container footer-content">
+                <img src="imgs/bakery-light-1.png" />
+                <p>Copyright 2017. All rights reserved.</p>
+            </div>
+            <div class="social-items">
+                <ul class="list-group list-group-horizontal">
+                    <li class="list-icon-item"><a href="#"><img src="imgs/facebook.png" alt=""/></a></li>
+                    <li class="list-icon-item"><a href="#"><img src="imgs/twitter.png" alt=""/></a></li>
+                    <li class="list-icon-item"><a href="#"><img src="imgs/email.png" alt=""/></a></li>
+                    <li class="list-icon-item"><a href="#"><img src="imgs/gplus.png" alt=""/></a></li>
+                </ul>
+            </div>
+
+        </footer>
+
+
+
+
+    </body>
+</html>
